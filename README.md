@@ -4,10 +4,11 @@ Implementation of the PRADA defence method for DNN’s in Node.js.
 
 Ported from Python, by the [Secure Systems Group (SSG)](https://ssg.aalto.fi/) at Aalto University.
 
+*This package does not work as-is. The port is in progress, but mostly finished and viewable on github!*
 
 ## What is PRADA?
 
-[PRADA](https://arxiv.org/pdf/1805.02628.pdf) is a method to prevent model extraction attacks. It's primary purpose is to detect when abuse of commercialised predictive MLaaS is occurring by systematically evaluating incomming requests for their fit inside of a threat model that closely matches methods employed in extraction attacks.
+[PRADA](https://arxiv.org/pdf/1805.02628.pdf) is a method to prevent model extraction attacks. Its primary purpose is to detect when abuse of commercialised predictive MLaaS is occurring by systematically evaluating incomming requests for their fit inside of a threat model that closely matches methods employed in extraction attacks.
 
 ## How effective is this method?
 
