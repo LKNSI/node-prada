@@ -1,6 +1,6 @@
 {
   "name": "node-prada",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Node implementation of the PRADA defence mechanism. Reimagined from SSGAalto's Python implementation.",
   "main": "index.js",
   "scripts": {

@@ -18,6 +18,10 @@ It is **highly recommended** you read the entrity of the mentioned paper above t
 
 This implementation is done through ES6 Classes. This may be either the easiest for you to implement, or may leave you in distress with performance depending on incalculable variables in your own setup. It is easy to extract the sentiment from what the code is attempting to do if you wish to include this in a more streamlined format.
 
+## Placement
+
+You should aim to place this at a layer that deals with API requests to your MLaaS. If you have multiple endpoints, you should aim to designate an instance to purely handling this job, and having n(th) nodes report back. This method as describe only works when it has the "full picture" of all inbound and outbound. You can not simply run multiple instances of this job as you will have isolated and independent values.
+
 ## Dependencies
 
 To install this package, you will need a fork of numjs from [here](https://github.com/LKNSI/numjs). The original numjs package suffers from infrequent to mildly annoying dependencies issues due to their insistence (a silent one) on including sharp in their package, and failing to ensure it is kept up to date. The forked package removes it.
