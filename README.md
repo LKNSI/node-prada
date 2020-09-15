@@ -20,7 +20,7 @@ This implementation is done through ES6 Classes. This may be either the easiest 
 
 ## Placement
 
-You should aim to place this at a layer that deals with API requests to your MLaaS. If you have multiple endpoints, you should aim to designate an instance to purely handling this job, and having n(th) nodes report back. This method as describe only works when it has the "full picture" of all inbound and outbound. You can not simply run multiple instances of this job as you will have isolated and independent values.
+You should aim to place this at a layer that deals with API requests to your MLaaS. If you have multiple endpoints, you should aim to designate an instance to purely handling this job, and having n(th) nodes report back. This method as described only works when it has the "full picture" of all inbound and outbound. You can not simply run multiple instances of this job as you will have isolated and independent values.
 
 ## Dependencies
 
